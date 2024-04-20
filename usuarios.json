@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "nombre": "Juan",
+    "apellido": "Perez",
+    "email": "juan.perez@gmail.com",
+    "contraseña": "clave123"
+  },
+  {
+    "id": 2,
+    "nombre": "María",
+    "apellido": "López",
+    "email": "maria.lopez@hotmail.com",
+    "contraseña": "contraseña456"
+  },
+  {
+    "id": 3,
+    "nombre": "Pedro",
+    "apellido": "González",
+    "email": "pedro.gonzalez@yahoo.com",
+    "contraseña": "password789"
+  },
+  {
+    "id": 4,
+    "nombre": "Ana",
+    "apellido": "Martínez",
+    "email": "ana.martinez@outlook.com",
+    "contraseña": "segura123"
+  },
+  {
+    "id": 5,
+    "nombre": "Luis",
+    "apellido": "Rodríguez",
+    "email": "luis.rodriguez@gmail.com",
+    "contraseña": "clave1234"
+  },
+  {
+    "id": 6,
+    "nombre": "Laura",
+    "apellido": "Sánchez",
+    "email": "laura.sanchez@outlook.com",
+    "contraseña": "contraseña567"
+  },
+  {
+    "id": 7,
+    "nombre": "Carlos",
+    "apellido": "Fernández",
+    "email": "carlos.fernandez@yahoo.com",
+    "contraseña": "password123"
+  },
+  {
+    "id": 8,
+    "nombre": "Sofía",
+    "apellido": "Gómez",
+    "email": "sofia.gomez@gmail.com",
+    "contraseña": "segura567"
+  },
+  {
+    "id": 9,
+    "nombre": "Diego",
+    "apellido": "Díaz",
+    "email": "diego.diaz@live.com",
+    "contraseña": "clave789"
+  },
+  {
+    "id": 10,
+    "nombre": "Elena",
+    "apellido": "Ruiz",
+    "email": "elena.ruiz@outlook.com",
+    "contraseña": "password456"
+  },
+  {
+    "id": 11,
+    "nombre": "Alejandro",
+    "apellido": "Hernández",
+    "email": "alejandro.hernandez@gmail.com",
+    "contraseña": "segura789"
+  },
+  {
+    "id": 12,
+    "nombre": "Paula",
+    "apellido": "Pérez",
+    "email": "paula.perez@yahoo.com",
+    "contraseña": "clave12345"
+  },
+  {
+    "id": 13,
+    "nombre": "Javier",
+    "apellido": "García",
+    "email": "javier.garcia@live.com",
+    "contraseña": "contraseña789"
+  },
+  {
+    "id": 14,
+    "nombre": "Carmen",
+    "apellido": "Martín",
+    "email": "carmen.martin@gmail.com",
+    "contraseña": "password1234"
+  },
+  {
+    "id": 15,
+    "nombre": "Isabel",
+    "apellido": "Torres",
+    "email": "isabel.torres@yahoo.com",
+    "contraseña": "segura1234"
+  },
+  {
+    "id": 16,
+    "nombre": "Manuel",
+    "apellido": "Jiménez",
+    "email": "manuel.jimenez@hotmail.com",
+    "contraseña": "clave678"
+  },
+  {
+    "id": 17,
+    "nombre": "Marta",
+    "apellido": "Dominguez",
+    "email": "marta.dominguez@gmail.com",
+    "contraseña": "contraseña123"
+  },
+  {
+    "id": 18,
+    "nombre": "Francisco",
+    "apellido": "Moreno",
+    "email": "francisco.moreno@outlook.com",
+    "contraseña": "password567"
+  },
+  {
+    "id": 19,
+    "nombre": "Eva",
+    "apellido": "Gutiérrez",
+    "email": "eva.gutierrez@yahoo.com",
+    "contraseña": "segura678"
+  },
+  {
+    "id": 20,
+    "nombre": "Antonio",
+    "apellido": "Álvarez",
+    "email": "antonio.alvarez@gmail.com",
+    "contraseña": "clave890"
+  }
+]
