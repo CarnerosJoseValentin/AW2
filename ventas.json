@@ -1,646 +1,688 @@
 [
-    {
-        "id": 1,
-        "id_usuario": 1,
-        "fecha": "2023-01-15",
-        "total": 89.99,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            9
-        ]
-    },
-    {
-        "id": 2,
-        "id_usuario": 2,
-        "fecha": "2023-03-27",
-        "total": 69.98,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            2,
-            7
-        ]
-    },
-    {
-        "id": 3,
-        "id_usuario": 3,
-        "fecha": "2023-06-10",
-        "total": 159.98,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            3,
-            6
-        ]
-    },
-    {
-        "id": 4,
-        "id_usuario": 4,
-        "fecha": "2023-09-18",
-        "total": 109.98,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            4,
-            10
-        ]
-    },
-    {
-        "id": 5,
-        "id_usuario": 5,
-        "fecha": "2023-12-02",
-        "total": 139.98,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            1,
-            8
-        ]
-    },
-    {
-        "id": 6,
-        "id_usuario": 6,
-        "fecha": "2023-02-14",
-        "total": 39.99,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            1
-        ]
-    },
-    {
-        "id": 7,
-        "id_usuario": 7,
-        "fecha": "2023-05-01",
-        "total": 189.98,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            3,
-            8
-        ]
-    },
-    {
-        "id": 8,
-        "id_usuario": 8,
-        "fecha": "2023-08-22",
-        "total": 59.98,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            2,
-            5
-        ]
-    },
-    {
-        "id": 9,
-        "id_usuario": 9,
-        "fecha": "2023-11-13",
-        "total": 119.98,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            4,
-            7
-        ]
-    },
-    {
-        "id": 10,
-        "id_usuario": 10,
-        "fecha": "2023-04-07",
-        "total": 169.98,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            6,
-            9
-        ]
-    },
-    {
-        "id": 11,
-        "id_usuario": 11,
-        "fecha": "2023-07-20",
-        "total": 79.98,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            2,
-            10
-        ]
-    },
-    {
-        "id": 12,
-        "id_usuario": 12,
-        "fecha": "2023-10-31",
-        "total": 49.99,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            1
-        ]
-    },
-    {
-        "id": 13,
-        "id_usuario": 13,
-        "fecha": "2023-02-18",
-        "total": 29.99,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            2
-        ]
-    },
-    {
-        "id": 14,
-        "id_usuario": 14,
-        "fecha": "2023-05-05",
-        "total": 99.98,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            4,
-            8
-        ]
-    },
-    {
-        "id": 15,
-        "id_usuario": 15,
-        "fecha": "2023-08-17",
-        "total": 79.98,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            3,
-            10
-        ]
-    },
-    {
-        "id": 16,
-        "id_usuario": 16,
-        "fecha": "2023-11-29",
-        "total": 49.99,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            1
-        ]
-    },
-    {
-        "id": 17,
-        "id_usuario": 17,
-        "fecha": "2023-03-12",
-        "total": 69.98,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            3,
-            6
-        ]
-    },
-    {
-        "id": 18,
-        "id_usuario": 18,
-        "fecha": "2023-06-25",
-        "total": 99.98,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            2,
-            7
-        ]
-    },
-    {
-        "id": 19,
-        "id_usuario": 19,
-        "fecha": "2023-09-08",
-        "total": 109.98,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            5,
-            9
-        ]
-    },
-    {
-        "id": 20,
-        "id_usuario": 20,
-        "fecha": "2023-12-21",
-        "total": 89.99,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            4
-        ]
-    },
-    {
-        "id": 21,
-        "id_usuario": 1,
-        "fecha": "2023-02-02",
-        "total": 169.98,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            7,
-            10
-        ]
-    },
-    {
-        "id": 22,
-        "id_usuario": 2,
-        "fecha": "2023-05-16",
-        "total": 89.99,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            8
-        ]
-    },
-    {
-        "id": 23,
-        "id_usuario": 3,
-        "fecha": "2023-08-05",
-        "total": 99.98,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            1,
-            5
-        ]
-    },
-    {
-        "id": 24,
-        "id_usuario": 4,
-        "fecha": "2023-11-17",
-        "total": 109.98,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            3,
-            6
-        ]
-    },
-    {
-        "id": 25,
-        "id_usuario": 5,
-        "fecha": "2023-04-30",
-        "total": 79.98,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            2,
-            9
-        ]
-    },
-    {
-        "id": 26,
-        "id_usuario": 6,
-        "fecha": "2023-07-13",
-        "total": 119.98,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            4,
-            7
-        ]
-    },
-    {
-        "id": 27,
-        "id_usuario": 7,
-        "fecha": "2023-10-24",
-        "total": 199.98,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            1,
-            8
-        ]
-    },
-    {
-        "id": 28,
-        "id_usuario": 8,
-        "fecha": "2023-01-06",
-        "total": 109.98,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            3,
-            10
-        ]
-    },
-    {
-        "id": 29,
-        "id_usuario": 9,
-        "fecha": "2023-03-18",
-        "total": 69.98,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            2,
-            6
-        ]
-    },
-    {
-        "id": 30,
-        "id_usuario": 10,
-        "fecha": "2023-06-01",
-        "total": 119.98,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            4,
-            9
-        ]
-    },
-    {
-        "id": 31,
-        "id_usuario": 11,
-        "fecha": "2023-09-14",
-        "total": 89.99,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            5
-        ]
-    },
-    {
-        "id": 32,
-        "id_usuario": 12,
-        "fecha": "2023-12-27",
-        "total": 139.98,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            2,
-            7
-        ]
-    },
-    {
-        "id": 33,
-        "id_usuario": 13,
-        "fecha": "2023-02-10",
-        "total": 39.99,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            1
-        ]
-    },
-    {
-        "id": 34,
-        "id_usuario": 14,
-        "fecha": "2023-05-23",
-        "total": 69.98,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            5,
-            10
-        ]
-    },
-    {
-        "id": 35,
-        "id_usuario": 15,
-        "fecha": "2023-08-04",
-        "total": 99.98,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            3,
-            8
-        ]
-    },
-    {
-        "id": 36,
-        "id_usuario": 16,
-        "fecha": "2023-11-16",
-        "total": 109.98,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            4,
-            6
-        ]
-    },
-    {
-        "id": 37,
-        "id_usuario": 17,
-        "fecha": "2023-03-29",
-        "total": 99.98,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            2,
-            9
-        ]
-    },
-    {
-        "id": 38,
-        "id_usuario": 18,
-        "fecha": "2023-06-10",
-        "total": 139.98,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            3,
-            7
-        ]
-    },
-    {
-        "id": 39,
-        "id_usuario": 19,
-        "fecha": "2023-09-22",
-        "total": 49.99,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            1
-        ]
-    },
-    {
-        "id": 40,
-        "id_usuario": 20,
-        "fecha": "2023-12-05",
-        "total": 79.98,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            5,
-            8
-        ]
-    },
-    {
-        "id": 41,
-        "id_usuario": 1,
-        "fecha": "2023-01-19",
-        "total": 29.99,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            2
-        ]
-    },
-    {
-        "id": 42,
-        "id_usuario": 2,
-        "fecha": "2023-04-03",
-        "total": 199.98,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            1,
-            6
-        ]
-    },
-    {
-        "id": 43,
-        "id_usuario": 3,
-        "fecha": "2023-07-16",
-        "total": 99.98,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            4,
-            10
-        ]
-    },
-    {
-        "id": 44,
-        "id_usuario": 4,
-        "fecha": "2023-10-28",
-        "total": 139.98,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            3,
-            8
-        ]
-    },
-    {
-        "id": 45,
-        "id_usuario": 5,
-        "fecha": "2023-02-10",
-        "total": 59.98,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            2,
-            9
-        ]
-    },
-    {
-        "id": 46,
-        "id_usuario": 6,
-        "fecha": "2023-05-25",
-        "total": 69.98,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            1,
-            5
-        ]
-    },
-    {
-        "id": 47,
-        "id_usuario": 7,
-        "fecha": "2023-09-07",
-        "total": 199.98,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            3,
-            6
-        ]
-    },
-    {
-        "id": 48,
-        "id_usuario": 8,
-        "fecha": "2023-12-20",
-        "total": 89.99,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            4
-        ]
-    },
-    {
-        "id": 49,
-        "id_usuario": 9,
-        "fecha": "2023-03-03",
-        "total": 69.98,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            2,
-            7
-        ]
-    },
-    {
-        "id": 50,
-        "id_usuario": 10,
-        "fecha": "2023-06-16",
-        "total": 89.99,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            8
-        ]
-    },
-    {
-        "id": 51,
-        "id_usuario": 11,
-        "fecha": "2023-09-29",
-        "total": 139.98,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            3,
-            10
-        ]
-    },
-    {
-        "id": 52,
-        "id_usuario": 12,
-        "fecha": "2023-01-11",
-        "total": 49.99,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            1
-        ]
-    },
-    {
-        "id": 53,
-        "id_usuario": 13,
-        "fecha": "2023-04-24",
-        "total": 79.98,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            2,
-            8
-        ]
-    },
-    {
-        "id": 54,
-        "id_usuario": 14,
-        "fecha": "2023-08-07",
-        "total": 99.98,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            4,
-            9
-        ]
-    },
-    {
-        "id": 55,
-        "id_usuario": 15,
-        "fecha": "2023-11-20",
-        "total": 49.99,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            1
-        ]
-    },
-    {
-        "id": 56,
-        "id_usuario": 16,
-        "fecha": "2023-03-04",
-        "total": 69.98,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            2,
-            10
-        ]
-    },
-    {
-        "id": 57,
-        "id_usuario": 17,
-        "fecha": "2023-06-17",
-        "total": 39.99,
-        "dirección": "Av. Vélez Sarsfield 187, Córdoba, Argentina",
-        "id_producto": [
-            3
-        ]
-    },
-    {
-        "id": 58,
-        "id_usuario": 18,
-        "fecha": "2023-09-30",
-        "total": 59.98,
-        "dirección": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina",
-        "id_producto": [
-            5,
-            8
-        ]
-    },
-    {
-        "id": 59,
-        "id_usuario": 19,
-        "fecha": "2023-12-13",
-        "total": 119.98,
-        "dirección": "Av. Colón 1456, Córdoba, Argentina",
-        "id_producto": [
-            4,
-            7
-        ]
-    },
-    {
-        "id": 60,
-        "id_usuario": 20,
-        "fecha": "2023-02-24",
-        "total": 89.99,
-        "dirección": "Av. Pueyrredón 1023, Córdoba, Argentina",
-        "id_producto": [
-            1,
-            9
-        ]
-    }
+    [
+        {
+            "id": 1,
+            "id_usuario": 1,
+            "fecha": "2023-01-15",
+            "total": 89.99,
+            "id_suc": 1,
+            "id_producto": [
+                {"id": 1, "cant": 1},
+                {"id": 2, "cant": 3}
+            ]
+        },
+        {
+            "id": 2,
+            "id_usuario": 2,
+            "fecha": "2023-02-16",
+            "total": 75.50,
+            "id_suc": 2,
+            "id_producto": [
+                {"id": 3, "cant": 2},
+                {"id": 4, "cant": 1}
+            ]
+        },
+        {
+            "id": 3,
+            "id_usuario": 3,
+            "fecha": "2023-03-17",
+            "total": 64.75,
+            "id_suc": 3,
+            "id_producto": [
+                {"id": 2, "cant": 1}
+            ]
+        },
+        {
+            "id": 4,
+            "id_usuario": 4,
+            "fecha": "2023-04-18",
+            "total": 120.30,
+            "id_suc": 4,
+            "id_producto": [
+                {"id": 6, "cant": 2},
+                {"id": 7, "cant": 3},
+                {"id": 8, "cant": 1},
+                {"id": 9, "cant": 2}
+            ]
+        },
+        {
+            "id": 5,
+            "id_usuario": 5,
+            "fecha": "2023-05-19",
+            "total": 95.60,
+            "id_suc": 1,
+            "id_producto": [
+                {"id": 3, "cant": 3},
+                {"id": 8, "cant": 1}
+            ]
+        },
+        {
+            "id": 6,
+            "id_usuario": 6,
+            "fecha": "2023-06-20",
+            "total": 110.40,
+            "id_suc": 2,
+            "id_producto": [
+                {"id": 5, "cant": 2}
+            ]
+        },
+        {
+            "id": 7,
+            "id_usuario": 7,
+            "fecha": "2023-07-21",
+            "total": 70.90,
+            "id_suc": 3,
+            "id_producto": [
+                {"id": 10, "cant": 1},
+                {"id": 1, "cant": 1},
+                {"id": 2, "cant": 2}
+            ]
+        },
+        {
+            "id": 8,
+            "id_usuario": 8,
+            "fecha": "2023-08-22",
+            "total": 55.75,
+            "id_suc": 4,
+            "id_producto": [
+                {"id": 2, "cant": 1},
+                {"id": 3, "cant": 2},
+                {"id": 4, "cant": 1}
+            ]
+        },
+        {
+            "id": 9,
+            "id_usuario": 9,
+            "fecha": "2023-09-23",
+            "total": 130.20,
+            "id_suc": 1,
+            "id_producto": [
+                {"id": 4, "cant": 3},
+                {"id": 5, "cant": 2}
+            ]
+        },
+        {
+            "id": 10,
+            "id_usuario": 10,
+            "fecha": "2023-10-24",
+            "total": 87.40,
+            "id_suc": 2,
+            "id_producto": [
+                {"id": 6, "cant": 2},
+                {"id": 7, "cant": 1},
+                {"id": 8, "cant": 1},
+                {"id": 9, "cant": 3}
+            ]
+        },
+        {
+            "id": 11,
+            "id_usuario": 11,
+            "fecha": "2023-11-25",
+            "total": 92.30,
+            "id_suc": 3,
+            "id_producto": [
+                {"id": 8, "cant": 1},
+                {"id": 9, "cant": 3},
+                {"id": 10, "cant": 2},
+                {"id": 1, "cant": 1},
+                {"id": 2, "cant": 2}
+            ]
+        },
+        {
+            "id": 12,
+            "id_usuario": 12,
+            "fecha": "2023-12-26",
+            "total": 75.00,
+            "id_suc": 4,
+            "id_producto": [
+                {"id": 10, "cant": 2},
+                {"id": 1, "cant": 2}
+            ]
+        },
+        {
+            "id": 13,
+            "id_usuario": 13,
+            "fecha": "2023-01-15",
+            "total": 68.25,
+            "id_suc": 1,
+            "id_producto": [
+                {"id": 2, "cant": 1},
+                {"id": 3, "cant": 1}
+            ]
+        },
+        {
+            "id": 14,
+            "id_usuario": 14,
+            "fecha": "2023-02-16",
+            "total": 85.50,
+            "id_suc": 2,
+            "id_producto": [
+                {"id": 4, "cant": 1},
+                {"id": 5, "cant": 3},
+                {"id": 6, "cant": 2}
+            ]
+        },
+        {
+            "id": 15,
+            "id_usuario": 15,
+            "fecha": "2023-03-17",
+            "total": 95.70,
+            "id_suc": 3,
+            "id_producto": [
+                {"id": 6, "cant": 2},
+                {"id": 7, "cant": 1},
+                {"id": 8, "cant": 1},
+                {"id": 9, "cant": 1}
+            ]
+        },
+        {
+            "id": 16,
+            "id_usuario": 16,
+            "fecha": "2023-04-18",
+            "total": 78.45,
+            "id_suc": 4,
+            "id_producto": [
+                {"id": 8, "cant": 1},
+                {"id": 9, "cant": 2}
+            ]
+        },
+        {
+            "id": 17,
+            "id_usuario": 17,
+            "fecha": "2023-05-19",
+            "total": 89.99,
+            "id_suc": 1,
+            "id_producto": [
+                {"id": 10, "cant": 1},
+                {"id": 1, "cant": 3}
+            ]
+        },
+        {
+            "id": 18,
+            "id_usuario": 18,
+            "fecha": "2023-06-20",
+            "total": 110.80,
+            "id_suc": 2,
+            "id_producto": [
+                {"id": 2, "cant": 1}
+            ]
+        },
+        {
+            "id": 19,
+            "id_usuario": 19,
+            "fecha": "2023-07-21",
+            "total": 85.75,
+            "id_suc": 3,
+            "id_producto": [
+                {"id": 4, "cant": 2},
+                {"id": 5, "cant": 3}
+            ]
+        },
+        {
+            "id": 20,
+            "id_usuario": 20,
+            "fecha": "2023-08-22",
+            "total": 70.20,
+            "id_suc": 4,
+            "id_producto": [
+                {"id": 6, "cant": 1},
+                {"id": 7, "cant": 1},
+                {"id": 8, "cant": 1},
+                {"id": 9, "cant": 1},
+                {"id": 10, "cant": 2}
+            ]
+        },
+        [
+            {
+                "id": 21,
+                "id_usuario": 1,
+                "fecha": "2023-09-23",
+                "total": 102.40,
+                "id_suc": 1,
+                "id_producto": [
+                    {"id": 8, "cant": 2},
+                    {"id": 9, "cant": 1},
+                    {"id": 10, "cant": 2}
+                ]
+            },
+            {
+                "id": 22,
+                "id_usuario": 2,
+                "fecha": "2023-10-24",
+                "total": 78.90,
+                "id_suc": 2,
+                "id_producto": [
+                    {"id": 3, "cant": 1},
+                    {"id": 5, "cant": 2}
+                ]
+            },
+            {
+                "id": 23,
+                "id_usuario": 3,
+                "fecha": "2023-11-25",
+                "total": 92.00,
+                "id_suc": 3,
+                "id_producto": [
+                    {"id": 4, "cant": 2},
+                    {"id": 6, "cant": 3}
+                ]
+            },
+            {
+                "id": 24,
+                "id_usuario": 4,
+                "fecha": "2023-12-26",
+                "total": 65.20,
+                "id_suc": 4,
+                "id_producto": [
+                    {"id": 7, "cant": 1},
+                    {"id": 8, "cant": 2},
+                    {"id": 9, "cant": 1}
+                ]
+            },
+            {
+                "id": 25,
+                "id_usuario": 5,
+                "fecha": "2023-01-15",
+                "total": 79.50,
+                "id_suc": 1,
+                "id_producto": [
+                    {"id": 1, "cant": 1},
+                    {"id": 3, "cant": 2}
+                ]
+            },
+            {
+                "id": 26,
+                "id_usuario": 6,
+                "fecha": "2023-02-16",
+                "total": 115.75,
+                "id_suc": 2,
+                "id_producto": [
+                    {"id": 2, "cant": 3},
+                    {"id": 4, "cant": 1},
+                    {"id": 5, "cant": 1}
+                ]
+            },
+            {
+                "id": 27,
+                "id_usuario": 7,
+                "fecha": "2023-03-17",
+                "total": 89.00,
+                "id_suc": 3,
+                "id_producto": [
+                    {"id": 6, "cant": 2}
+                ]
+            },
+            {
+                "id": 28,
+                "id_usuario": 8,
+                "fecha": "2023-04-18",
+                "total": 94.75,
+                "id_suc": 4,
+                "id_producto": [
+                    {"id": 1, "cant": 2},
+                    {"id": 2, "cant": 1},
+                    {"id": 3, "cant": 2}
+                ]
+            },
+            {
+                "id": 29,
+                "id_usuario": 9,
+                "fecha": "2023-05-19",
+                "total": 85.25,
+                "id_suc": 1,
+                "id_producto": [
+                    {"id": 4, "cant": 1},
+                    {"id": 5, "cant": 2},
+                    {"id": 6, "cant": 1}
+                ]
+            },
+            {
+                "id": 30,
+                "id_usuario": 10,
+                "fecha": "2023-06-20",
+                "total": 90.40,
+                "id_suc": 2,
+                "id_producto": [
+                    {"id": 7, "cant": 1},
+                    {"id": 8, "cant": 2},
+                    {"id": 9, "cant": 2},
+                    {"id": 10, "cant": 1}
+                ]
+            },
+            {
+                "id": 31,
+                "id_usuario": 11,
+                "fecha": "2023-07-21",
+                "total": 72.80,
+                "id_suc": 3,
+                "id_producto": [
+                    {"id": 1, "cant": 1},
+                    {"id": 3, "cant": 2}
+                ]
+            },
+            {
+                "id": 32,
+                "id_usuario": 12,
+                "fecha": "2023-08-22",
+                "total": 81.60,
+                "id_suc": 4,
+                "id_producto": [
+                    {"id": 2, "cant": 1},
+                    {"id": 4, "cant": 2},
+                    {"id": 6, "cant": 1},
+                    {"id": 8, "cant": 1}
+                ]
+            },
+            {
+                "id": 33,
+                "id_usuario": 13,
+                "fecha": "2023-09-23",
+                "total": 112.30,
+                "id_suc": 1,
+                "id_producto": [
+                    {"id": 5, "cant": 3},
+                    {"id": 7, "cant": 2}
+                ]
+            },
+            {
+                "id": 34,
+                "id_usuario": 14,
+                "fecha": "2023-10-24",
+                "total": 77.90,
+                "id_suc": 2,
+                "id_producto": [
+                    {"id": 8, "cant": 1},
+                    {"id": 10, "cant": 2}
+                ]
+            },
+            {
+                "id": 35,
+                "id_usuario": 15,
+                "fecha": "2023-11-25",
+                "total": 97.50,
+                "id_suc": 3,
+                "id_producto": [
+                    {"id": 1, "cant": 1},
+                    {"id": 2, "cant": 2},
+                    {"id": 3, "cant": 1}
+                ]
+            },
+            {
+                "id": 36,
+                "id_usuario": 16,
+                "fecha": "2023-12-26",
+                "total": 69.20,
+                "id_suc": 4,
+                "id_producto": [
+                    {"id": 4, "cant": 1},
+                    {"id": 5, "cant": 1}
+                ]
+            },
+            {
+                "id": 37,
+                "id_usuario": 17,
+                "fecha": "2023-01-15",
+                "total": 88.90,
+                "id_suc": 1,
+                "id_producto": [
+                    {"id": 6, "cant": 2},
+                    {"id": 7, "cant": 1},
+                    {"id": 9, "cant": 2}
+                ]
+            },
+            {
+                "id": 38,
+                "id_usuario": 18,
+                "fecha": "2023-02-16",
+                "total": 75.60,
+                "id_suc": 2,
+                "id_producto": [
+                    {"id": 8, "cant": 1},
+                    {"id": 10, "cant": 1}
+                ]
+            },
+            {
+                "id": 39,
+                "id_usuario": 19,
+                "fecha": "2023-03-17",
+                "total": 94.20,
+                "id_suc": 3,
+                "id_producto": [
+                    {"id": 1, "cant": 2},
+                    {"id": 3, "cant": 1},
+                    {"id": 5, "cant": 2}
+                ]
+            },
+            {
+                "id": 40,
+                "id_usuario": 20,
+                "fecha": "2023-04-18",
+                "total": 82.30,
+                "id_suc": 4,
+                "id_producto": [
+                    {"id": 2, "cant": 2}
+                ]
+            },
+            {
+                "id": 41,
+                "id_usuario": 1,
+                "fecha": "2023-05-19",
+                "total": 109.75,
+                "id_suc": 1,
+                "id_producto": [
+                    {"id": 3, "cant": 1},
+                    {"id": 5, "cant": 2},
+                    {"id": 7, "cant": 1}
+                ]
+            },
+            [
+                {
+                    "id": 42,
+                    "id_usuario": 2,
+                    "fecha": "2023-06-20",
+                    "total": 76.80,
+                    "id_suc": 2,
+                    "id_producto": [
+                        {"id": 4, "cant": 2},
+                        {"id": 6, "cant": 1}
+                    ]
+                },
+                {
+                    "id": 43,
+                    "id_usuario": 3,
+                    "fecha": "2023-07-21",
+                    "total": 88.90,
+                    "id_suc": 3,
+                    "id_producto": [
+                        {"id": 8, "cant": 1},
+                        {"id": 10, "cant": 3}
+                    ]
+                },
+                {
+                    "id": 44,
+                    "id_usuario": 4,
+                    "fecha": "2023-08-22",
+                    "total": 92.75,
+                    "id_suc": 4,
+                    "id_producto": [
+                        {"id": 2, "cant": 1},
+                        {"id": 5, "cant": 2}
+                    ]
+                },
+                {
+                    "id": 45,
+                    "id_usuario": 5,
+                    "fecha": "2023-09-23",
+                    "total": 85.50,
+                    "id_suc": 1,
+                    "id_producto": [
+                        {"id": 3, "cant": 1},
+                        {"id": 4, "cant": 3},
+                        {"id": 6, "cant": 1}
+                    ]
+                },
+                {
+                    "id": 46,
+                    "id_usuario": 6,
+                    "fecha": "2023-10-24",
+                    "total": 78.90,
+                    "id_suc": 2,
+                    "id_producto": [
+                        {"id": 7, "cant": 1}
+                    ]
+                },
+                {
+                    "id": 47,
+                    "id_usuario": 7,
+                    "fecha": "2023-11-25",
+                    "total": 102.30,
+                    "id_suc": 3,
+                    "id_producto": [
+                        {"id": 1, "cant": 2},
+                        {"id": 8, "cant": 3}
+                    ]
+                },
+                {
+                    "id": 48,
+                    "id_usuario": 8,
+                    "fecha": "2023-12-26",
+                    "total": 95.50,
+                    "id_suc": 4,
+                    "id_producto": [
+                        {"id": 5, "cant": 1},
+                        {"id": 10, "cant": 2}
+                    ]
+                },
+                {
+                    "id": 49,
+                    "id_usuario": 9,
+                    "fecha": "2023-01-15",
+                    "total": 87.30,
+                    "id_suc": 1,
+                    "id_producto": [
+                        {"id": 3, "cant": 1}
+                    ]
+                },
+                {
+                    "id": 50,
+                    "id_usuario": 10,
+                    "fecha": "2023-02-16",
+                    "total": 111.00,
+                    "id_suc": 2,
+                    "id_producto": [
+                        {"id": 2, "cant": 1},
+                        {"id": 6, "cant": 2},
+                        {"id": 9, "cant": 2}
+                    ]
+                },
+                {
+                    "id": 51,
+                    "id_usuario": 11,
+                    "fecha": "2023-03-17",
+                    "total": 76.50,
+                    "id_suc": 3,
+                    "id_producto": [
+                        {"id": 1, "cant": 1},
+                        {"id": 5, "cant": 2},
+                        {"id": 10, "cant": 1}
+                    ]
+                },
+                {
+                    "id": 52,
+                    "id_usuario": 12,
+                    "fecha": "2023-04-18",
+                    "total": 90.40,
+                    "id_suc": 4,
+                    "id_producto": [
+                        {"id": 3, "cant": 2},
+                        {"id": 4, "cant": 1}
+                    ]
+                },
+                {
+                    "id": 53,
+                    "id_usuario": 13,
+                    "fecha": "2023-05-19",
+                    "total": 102.30,
+                    "id_suc": 1,
+                    "id_producto": [
+                        {"id": 7, "cant": 1}
+                    ]
+                },
+                {
+                    "id": 54,
+                    "id_usuario": 14,
+                    "fecha": "2023-06-20",
+                    "total": 85.50,
+                    "id_suc": 2,
+                    "id_producto": [
+                        {"id": 2, "cant": 1},
+                        {"id": 6, "cant": 2}
+                    ]
+                },
+                {
+                    "id": 55,
+                    "id_usuario": 15,
+                    "fecha": "2023-07-21",
+                    "total": 77.40,
+                    "id_suc": 3,
+                    "id_producto": [
+                        {"id": 1, "cant": 1},
+                        {"id": 4, "cant": 2}
+                    ]
+                },
+                {
+                    "id": 56,
+                    "id_usuario": 16,
+                    "fecha": "2023-08-22",
+                    "total": 91.20,
+                    "id_suc": 4,
+                    "id_producto": [
+                        {"id": 3, "cant": 1},
+                        {"id": 7, "cant": 2},
+                        {"id": 8, "cant": 1}
+                    ]
+                },
+                {
+                    "id": 57,
+                    "id_usuario": 17,
+                    "fecha": "2023-09-23",
+                    "total": 103.30,
+                    "id_suc": 1,
+                    "id_producto": [
+                        {"id": 2, "cant": 2},
+                        {"id": 9, "cant": 3}
+                    ]
+                },
+                {
+                    "id": 58,
+                    "id_usuario": 18,
+                    "fecha": "2023-10-24",
+                    "total": 78.60,
+                    "id_suc": 2,
+                    "id_producto": [
+                        {"id": 5, "cant": 1}
+                    ]
+                },
+                {
+                    "id": 59,
+                    "id_usuario": 19,
+                    "fecha": "2023-11-25",
+                    "total": 87.40,
+                    "id_suc": 3,
+                    "id_producto": [
+                        {"id": 4, "cant": 2},
+                        {"id": 7, "cant": 1}
+                    ]
+                },
+                {
+                    "id": 60,
+                    "id_usuario": 20,
+                    "fecha": "2023-12-26",
+                    "total": 95.30,
+                    "id_suc": 4,
+                    "id_producto": [
+                        {"id": 1, "cant": 1}
+                    ]
+                }
+            ]
 ]
