@@ -1,0 +1,154 @@
+[
+  {
+    "id_usuario": 1,
+    "nombre": "Juan",
+    "apellido": "Perez",
+    "direccion": "Av. Fuerza Aerea 1805, Córdoba, Argentina",
+    "email": "juan.perez@gmail.com",
+    "contraseña": "clave123"
+  },
+  {
+    "id_usuario": 2,
+    "nombre": "María",
+    "apellido": "Gonzalez",
+    "direccion": "La Rioja 123, Córdoba, Argentina",
+    "email": "maria.gonzalez@yahoo.com",
+    "contraseña": "password456"
+  },
+  {
+    "id_usuario": 3,
+    "nombre": "Carlos",
+    "apellido": "Rodriguez",
+    "direccion": "Av. Libertador 2020, Córdoba, Argentina",
+    "email": "carlos.rodriguez@hotmail.com",
+    "contraseña": "abcde789"
+  },
+  {
+    "id_usuario": 4,
+    "nombre": "Lucía",
+    "apellido": "Martinez",
+    "direccion": "Calle Corrientes 789, Córdoba, Argentina",
+    "email": "lucia.martinez@outlook.com",
+    "contraseña": "12345xyz"
+  },
+  {
+    "id_usuario": 5,
+    "nombre": "Miguel",
+    "apellido": "Sanchez",
+    "direccion": "Calle Las Heras 345, Córdoba, Argentina",
+    "email": "miguel.sanchez@icloud.com",
+    "contraseña": "contraseña987"
+  },
+  {
+    "id_usuario": 6,
+    "nombre": "Laura",
+    "apellido": "Lopez",
+    "direccion": "Av. Belgrano 567, Córdoba, Argentina",
+    "email": "laura.lopez@yahoo.com.ar",
+    "contraseña": "mipass456"
+  },
+  {
+    "id_usuario": 7,
+    "nombre": "Pedro",
+    "apellido": "Fernandez",
+    "direccion": "Calle Rivadavia 1234, Córdoba, Argentina",
+    "email": "pedro.fernandez@gmail.com",
+    "contraseña": "fernandez321"
+  },
+  {
+    "id_usuario": 8,
+    "nombre": "Ana",
+    "apellido": "Torres",
+    "direccion": "Av. Colón 678, Córdoba, Argentina",
+    "email": "ana.torres@hotmail.com",
+    "contraseña": "torres789"
+  },
+  {
+    "id_usuario": 9,
+    "nombre": "Jorge",
+    "apellido": "Ramirez",
+    "direccion": "Calle Mitre 456, Córdoba, Argentina",
+    "email": "jorge.ramirez@live.com",
+    "contraseña": "ramirez123"
+  },
+  {
+    "id_usuario": 10,
+    "nombre": "Sofía",
+    "apellido": "Alvarez",
+    "direccion": "Av. Sarmiento 890, Córdoba, Argentina",
+    "email": "sofia.alvarez@icloud.com",
+    "contraseña": "sofia456"
+  },
+  {
+    "id_usuario": 11,
+    "nombre": "Gustavo",
+    "apellido": "Hernandez",
+    "direccion": "Calle Alberdi 234, Córdoba, Argentina",
+    "email": "gustavo.hernandez@gmail.com",
+    "contraseña": "hernandez789"
+  },
+  {
+    "id_usuario": 12,
+    "nombre": "Natalia",
+    "apellido": "Ramirez",
+    "direccion": "Av. Pellegrini 567, Córdoba, Argentina",
+    "email": "natalia.ramirez@yahoo.com",
+    "contraseña": "natalia123"
+  },
+  {
+    "id_usuario": 13,
+    "nombre": "Sebastian",
+    "apellido": "Ruiz",
+    "direccion": "Calle Olmos 890, Córdoba, Argentina",
+    "email": "sebastian.ruiz@outlook.com",
+    "contraseña": "ruiz456"
+  },
+  {
+    "id_usuario": 14,
+    "nombre": "Valeria",
+    "apellido": "Morales",
+    "direccion": "Av. Vélez Sarsfield 123, Córdoba, Argentina",
+    "email": "valeria.morales@hotmail.com",
+    "contraseña": "valeria789"
+  },
+  {
+    "id_usuario": 15,
+    "nombre": "Fernando",
+    "apellido": "Paz",
+    "direccion": "Calle Chacabuco 456, Córdoba, Argentina",
+    "email": "fernando.paz@live.com",
+    "contraseña": "fernando123"
+  },
+  {
+    "id_usuario": 16,
+    "nombre": "Julieta",
+    "apellido": "Blanco",
+    "direccion": "Calle General Paz 789, Córdoba, Argentina",
+    "email": "julieta.blanco@gmail.com",
+    "contraseña": "blanco456"
+  },
+  {
+    "id_usuario": 17,
+    "nombre": "Ricardo",
+    "apellido": "Castro",
+    "direccion": "Av. Hipólito Yrigoyen 567, Córdoba, Argentina",
+    "email": "ricardo.castro@icloud.com",
+    "contraseña": "castro789"
+  },
+  {
+    "id_usuario": 18,
+    "nombre": "Gabriela",
+    "apellido": "Arias",
+    "direccion": "Calle Independencia 234, Córdoba, Argentina",
+    "email": "gabriela.arias@yahoo.com",
+    "contraseña": "gabriela123"
+  },
+  {
+    "id_usuario": 19,
+    "nombre": "Gabriela",
+    "apellido": "Arias",
+    "direccion": "Calle Independencia 234, Córdoba, Argentina",
+    "email": "gabriela.arias@yahoo.com",
+    "contraseña": "gabriela123"
+  }
+]

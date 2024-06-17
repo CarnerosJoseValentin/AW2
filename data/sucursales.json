@@ -1,0 +1,22 @@
+[
+  {
+    "id_sucursal": 1,
+    "direccion": "Av. Vélez Sarsfield 187, Córdoba, Argentina"
+  },
+  {
+    "id_sucursal": 2,
+    "direccion": "Av. Hipólito Yrigoyen 287, Córdoba, Argentina"
+  },
+  {
+    "id_sucursal": 3,
+    "direccion": "Av. Colón 1456, Córdoba, Argentina"
+  },
+  {
+    "id_sucursal": 4,
+    "direccion": "Av. Pueyrredón 1023, Córdoba, Argentina"
+  },
+  {
+    "id_sucursal": 5,
+    "direccion": "Aviador S. Pettirossi 1467, Cordoba, Argentina"
+  }
+]
