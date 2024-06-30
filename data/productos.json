@@ -1,100 +1,114 @@
 [
   {
     "id_producto": 1,
+    "categoria": "Camisas",
     "nombre": "Camisa de vestir",
     "desc": "Camisa elegante de algodón con botones, perfecta para ocasiones formales.",
     "precio": 39.59010000000001,
-    "imagen": "camisa_vestir.jpg"
+    "imagen": "img/products/camisas/camisa1.png"
   },
   {
     "id_producto": 2,
-    "nombre": "Pantalones chinos",
+    "categoria": "Pantalones",
+    "nombre": "Pantalones chinos beige",
     "desc": "Pantalones chinos clásicos en color beige, ideales para un look casual.",
     "precio": 128.6901,
-    "imagen": "pantalones_chinos.jpg"
+    "imagen": "img/products/pantalones/pantalon03.png"
   },
   {
     "id_producto": 3,
-    "nombre": "Blazer",
-    "desc": "Blazer de corte moderno en color azul marino, perfecto para eventos semiformales.",
+    "categoria": "Sacos",
+    "nombre": "Blazer beige",
+    "desc": "Blazer de corte moderno en color beige, perfecto para eventos semiformales.",
     "precio": 79.19009999999999,
-    "imagen": "blazer.jpg"
+    "imagen": "img/products/sacos/sacos1.png"
   },
   {
     "id_producto": 4,
-    "nombre": "Suéter de punto",
-    "desc": "Suéter de punto suave y cálido en color gris, ideal para los días frescos de otoño.",
-    "precio": 49.490100000000005,
-    "imagen": "sueter_punto.jpg"
+    "categoria": "Pantalones",
+    "nombre": "Pantalones chinos negros",
+    "desc": "Pantalones chinos clásicos en color negro, ideales para un look casual.",
+    "precio": 128.6901,
+    "imagen": "img/products/pantalones/pantalon04.png"
   },
   {
     "id_producto": 5,
+    "categoria": "Pantalones",
     "nombre": "Jeans slim fit",
     "desc": "Jeans de corte slim fit en denim azul oscuro, una opción versátil para cualquier ocasión.",
     "precio": 59.390100000000004,
-    "imagen": "jeans_slim_fit.jpg"
+    "imagen": "img/products/pantalones/pantalon01.png"
   },
   {
     "id_producto": 6,
-    "nombre": "Chaqueta de cuero",
-    "desc": "Chaqueta de cuero genuino en color negro, ideal para un look rebelde y urbano.",
-    "precio": 128.6901,
-    "imagen": "chaqueta_cuero.jpg"
+    "categoria": "Sacos",
+    "nombre": "Blazer reojo",
+    "desc": "Blazer de corte moderno en color rojo, perfecto para eventos semiformales.",
+    "precio": 79.19009999999999,
+    "imagen": "img/products/sacos/sacos5.png"
   },
   {
     "id_producto": 7,
-    "nombre": "Polos de algodón",
-    "desc": "Pack de tres polos de algodón en colores blanco, negro y azul, perfectos para el día a día.",
-    "precio": 34.640100000000004,
-    "imagen": "polos_algodon.jpg"
+    "categoria": "Sacos",
+    "nombre": "Saco Gray",
+    "desc": "Saco formal en color gris topo, perfecto para oficina.",
+    "precio": 79.19009999999999,
+    "imagen": "img/products/sacos/sacos6.png"
   },
   {
     "id_producto": 8,
-    "nombre": "Traje completo",
-    "desc": "Traje completo con saco y pantalón en color gris, ideal para eventos formales.",
-    "precio": 197.9901,
-    "imagen": "traje_completo.jpg"
+    "categoria": "Sacos",
+    "nombre": "Blazer cuello Mao ",
+    "desc": "Blazer total white estilo indú.",
+    "precio": 79.19009999999999,
+    "imagen": "img/products/sacos/sacos4.png"
   },
   {
     "id_producto": 9,
-    "nombre": "Zapatos de vestir",
-    "desc": "Zapatos de vestir clásicos en piel negra, perfectos para completar cualquier outfit elegante.",
+    "categoria": "Zapatos",
+    "nombre": "Zapatos de vestir marrones",
+    "desc": "Zapatos de vestir clásicos en piel amarronada, perfectos para completar cualquier outfit elegante.",
     "precio": 89.09009999999999,
-    "imagen": "zapatos_vestir.jpg"
+    "imagen": "img/products/zapatos/zapato4.png"
   },
   {
     "id_producto": 10,
-    "nombre": "Bufanda de lana",
-    "desc": "Bufanda de lana suave y abrigada en color gris oscuro, ideal para los días fríos de invierno.",
+    "categoria": "Pantalones",
+    "nombre": "Pantalon formal gray",
+    "desc": "Pantalon de vestir clasico, ideal para oficina.",
     "precio": 19.790099999999995,
-    "imagen": "bufanda_lana.jpg"
+    "imagen": "img/products/pantalones/pantalon02.png"
   },
   {
     "id_producto": 11,
-    "nombre": "Chalina ",
-    "desc": "Chalina suave y abrigada en color verde oliva.",
-    "precio": 20,
-    "imagen": "Chalina_verde.jpg"
+    "categoria": "Camisas",
+    "nombre": "Camisa cuadrille red-white",
+    "desc": "Camisa cuadrille red and white.",
+    "precio": 39.59010000000001,
+    "imagen": "img/products/camisas/camisa4.png"
   },
   {
     "id_producto": 12,
+    "categoria": "Camisas",
     "nombre": "Camisa YSL Black ",
     "desc": "Camisa marca YSL negra satinada slimfit.",
     "precio": 49.5,
-    "imagen": "Camisa_YSL_Black.jpg"
+    "imagen": "img/products/camisas/camisa3.png"
   },
   {
     "id_producto": 13,
+    "categoria": "Camisas",
     "nombre": "Camisa YSL Sky ",
     "desc": "Camisa marca YSL celeste regularfit.",
     "precio": 47.5,
-    "imagen": "Camisa_YSL_Sky.jpg"
+    "imagen": "img/products/camisas/camisa5.png"
   },
   {
     "id_producto": 14,
-    "nombre": "Cinto",
-    "desc": "Cinto de piel de lagarto",
-    "precio": "34",
-    "imagen": "Cinto_Cocodrilo.jpg"
+    "categoria": "Zapatos",
+    "nombre": "Zapatos de vestir negros",
+    "desc": "Zapatos de vestir clásicos en piel negra, perfectos para completar cualquier outfit elegante.",
+    "precio": 89.09009999999999,
+    "imagen": "img/products/zapatos/zapato7.png"
   }
 ]

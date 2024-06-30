@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Threads - Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#522E74',
+                        secondary: '#010810',
+                        accent1: '#51591E',
+                        accent2: '#A2765D',
+                        accent3: '#714D3D',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-secondary min-h-screen flex items-center justify-center">
+    <div class="bg-white p-8 rounded-lg shadow-md w-96">
+        <div class="mb-6 text-center">
+            
+            <div class="w-32 h-32 mx-auto bg-gray-200 rounded-full flex items-center justify-center text-primary">
+                <span class="text-2xl font-bold">LOGO</span>
+            </div>
+        </div>
+        <h2 class="text-2xl font-bold mb-6 text-center text-primary">Elegance Threads</h2>
+        <form id="loginForm">
+            <div class="mb-4">
+                <label for="email" class="block mb-2 text-sm font-medium text-gray-700">Correo electrónico</label>
+                <input type="email" id="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary" required>
+            </div>
+            <div class="mb-6">
+                <label for="password" class="block mb-2 text-sm font-medium text-gray-700">Contraseña</label>
+                <input type="password" id="password" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary" required>
+            </div>
+            <button type="submit" class="w-full bg-primary text-white py-2 px-4 rounded-md hover:bg-opacity-90 transition duration-300">Iniciar sesión</button>
+        </form>
+        <!-- <div class="mt-4 text-center">
+            <a href="#" class="text-sm text-accent2 hover:underline">¿Olvidaste tu contraseña?</a>
+        </div> -->
+        <div id="mensajeError" class="mt-4 text-center text-red-500 hidden"></div>
+    </div>
+
+    <script type="module" src="./script/main.js"></script>
+</body>
+</html>

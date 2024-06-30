@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Threads - Productos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#522E74',
+                        secondary: '#010810',
+                        accent1: '#51591E',
+                        accent2: '#A2765D',
+                        accent3: '#714D3D',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-secondary min-h-screen">
+    <header class="bg-primary text-white p-4">
+        <h1 class="text-2xl font-bold">Elegance Threads - Productos</h1>
+    </header>
+
+    <main class="container mx-auto p-4 flex">
+        <section class="w-3/4 pr-4">
+            <div class="mb-4">
+                <select id="categoriaFilter" class="p-2 rounded">
+                    <option value="">Todas las categorías</option>
+                    <option value="pantalones">Pantalones</option>
+                    <option value="camisas">Camisas</option>
+                    <option value="sacos">Sacos</option>
+                    <option value="zapatos">Zapatos</option>
+                </select>
+            </div>
+            <div id="productosGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+            </div>
+        </section>
+
+        <aside class="w-1/4 bg-white p-4 rounded-lg">
+            <h2 class="text-xl font-bold mb-4">Carrito de Compras</h2>
+            <div id="carrito">
+
+            </div>
+            <div class="mt-4">
+                <p>Total: $<span id="totalCarrito">0</span></p>
+                <button id="comprarBtn" class="mt-2 bg-accent2 text-white p-2 rounded w-full">Comprar</button>
+            </div>
+        </aside>
+    </main>
+
+    <script type="module" src="../script/main.js"></script>
+</body>
+</html>

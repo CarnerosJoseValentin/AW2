@@ -167,5 +167,60 @@
         "cant": 1
       }
     ]
+  },
+  {
+    "id": 14,
+    "id_usuario": 13,
+    "fecha": "2024-06-30",
+    "total": 207.88,
+    "id_sucursal": 1,
+    "descripcion": [
+      {
+        "id_producto": 3,
+        "cant": 1
+      },
+      {
+        "id_producto": 2,
+        "cant": 1
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "id_usuario": 13,
+    "fecha": "2024-06-30",
+    "total": 296.97,
+    "id_sucursal": 1,
+    "descripcion": [
+      {
+        "id_producto": 2,
+        "cant": 1
+      },
+      {
+        "id_producto": 4,
+        "cant": 1
+      },
+      {
+        "id_producto": 1,
+        "cant": 1
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "id_usuario": 13,
+    "fecha": "2024-06-30",
+    "total": 158.38,
+    "id_sucursal": 1,
+    "descripcion": [
+      {
+        "id_producto": 7,
+        "cant": 1
+      },
+      {
+        "id_producto": 8,
+        "cant": 1
+      }
+    ]
   }
 ]
