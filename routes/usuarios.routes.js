@@ -1,38 +1,124 @@
 import { Router } from "express";
 import { readFile, writeFile } from "fs/promises";
+import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken";
+
 
 const router = Router();
 
-const getData = async()=>{
+const getData = async () => {
   const fileUser = await readFile("./data/usuarios.json", "utf-8");
   return JSON.parse(fileUser);
 }
 
-//Validar Ingreso con Usuario y Contraseña
+//Generar un nuevo usuario
 
-router.post("/login", async (req, res) => {
-  const email = req.body.email;
-  const pass = req.body.contraseña;
+router.post("/usuarioNuevo", async (req, res) => {
+  const { nombre, apellido, direccion, email, contraseña } = req.body;
   const dataUsuarios = await getData()
 
   try {
-    const resultado = dataUsuarios.find(
-      (e) => e.email == email && e.contraseña == pass
-    );
-
-    if (resultado) {
-      res.status(200).json({
-        id_usuario: resultado.id_usuario,
-        nombre: resultado.nombre,
-        apellido: resultado.apellido
-      });
+    const usuarioExistente = dataUsuarios.find((e) => e.email === email);
+    if (usuarioExistente) {
+      return res.status(400).json({ message: "El usuario ya existe" });
     } else {
-      res.status(400).json({ message: "Credenciales incorrectas" });
+      const id_usuario = dataUsuarios.length + 1;
+      
+      
+      const saltRounds = 8;
+      const hashedPassword = await bcrypt.hash(contraseña, saltRounds);
+
+      const nuevoUsuario = {
+        id_usuario,
+        nombre,
+        apellido,
+        direccion,
+        email,
+        contraseña: hashedPassword, 
+      };
+      dataUsuarios.push(nuevoUsuario);
+      await writeFile(
+        "./data/usuarios.json",
+        JSON.stringify(dataUsuarios, null, 2)
+      );
+
+      const token = jwt.sign(
+        { id: nuevoUsuario.id_usuario, email: nuevoUsuario.email },
+        process.env.JWT_SECRET,
+        { expiresIn: '1h' }
+      );
+
+      res.json({ message: "Usuario creado con éxito", token });
     }
   } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Error al crear usuario" });
+  }
+});
+
+//Validar Ingreso con Usuario y Contraseña
+
+router.post("/login", async (req, res) => {
+  const { email, contraseña } = req.body;
+  const dataUsuarios = await getData()
+
+  try {
+    const usuario = dataUsuarios.find(e => e.email === email);
+
+    if (!usuario) {
+      return res.status(400).json({ message: "Credenciales incorrectas" });
+    }
+
+    const contraseñaValida = await bcrypt.compare(contraseña, usuario.contraseña);
+
+    if (!contraseñaValida) {
+      return res.status(400).json({ message: "Credenciales incorrectas" });
+    }
+
+    const token = jwt.sign(
+      { id: usuario.id_usuario, email: usuario.email },
+      process.env.JWT_SECRET,
+      { expiresIn: '1h' }
+    );
+
+    res.status(200).json({
+      message: "Login exitoso",
+      token,
+      usuario: {
+        id_usuario: usuario.id_usuario,
+        nombre: usuario.nombre,
+        apellido: usuario.apellido
+      }
+    });
+  } catch (error) {
+    console.error(error);
     res.status(500).json({ message: "Se produjo un error al intentar ingresar al sistema" });
   }
 });
+
+// router.post("/login", async (req, res) => {
+//   const email = req.body.email;
+//   const pass = req.body.contraseña;
+//   const dataUsuarios = await getData()
+
+//   try {
+//     const resultado = dataUsuarios.find(
+//       (e) => e.email == email && e.contraseña == pass
+//     );
+
+//     if (resultado) {
+//       res.status(200).json({
+//         id_usuario: resultado.id_usuario,
+//         nombre: resultado.nombre,
+//         apellido: resultado.apellido
+//       });
+//     } else {
+//       res.status(400).json({ message: "Credenciales incorrectas" });
+//     }
+//   } catch (error) {
+//     res.status(500).json({ message: "Se produjo un error al intentar ingresar al sistema" });
+//   }
+// });
 
 
 export default router;
@@ -58,38 +144,7 @@ export default router;
 //   }
 // });
 
-// Dar de alta Usuario
 
-// router.post("/usuarioNuevo", async (req, res) => {
-//   const { nombre, apellido, direccion, email, contraseña } = req.body;
-//   const dataUsuarios = await getData()
-
-//   try {
-//     const nuevoUsuario = dataUsuarios.find((e) => e.email === email);
-//     if (nuevoUsuario) {
-//       return res.status(400).json({ message: "El usuario ya existe" });
-//     } else {
-//       const id_usuario = dataUsuarios.length + 1;
-//       const nuevoUsuario = {
-//         id_usuario,
-//         nombre,
-//         apellido,
-//         direccion,
-//         email,
-//         contraseña,
-//       };
-//       dataUsuarios.push(nuevoUsuario);
-//       await writeFile(
-//         "./data/usuarios.json",
-//         JSON.stringify(dataUsuarios, null, 2)
-//       );
-
-//       res.json({ message: "Usuario creado con éxito" });
-//     }
-//   } catch (error) {
-//     res.status(500).json({ message: "Error al crear usuario" });
-//   }
-// });
 
 // Actualizar domicilio cliente
 

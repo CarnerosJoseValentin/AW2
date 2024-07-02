@@ -12,7 +12,7 @@ export function inicializarLogin() {
         mostrarError('Por favor, complete todos los campos.');
         return;
       }
-  
+    
       try {
         const response = await fetch('/usuarios/login', {
           method: 'POST',
@@ -24,15 +24,22 @@ export function inicializarLogin() {
             contraseña: passwordInput.value
           })
         });
-  
+    
         if (response.ok) {
           const data = await response.json();
+          // Almacenar el token JWT
+          localStorage.setItem('token', data.token);
+          
+          // Almacenar la información del usuario
           const usuario = {
-            id: data.id_usuario,
-            nombre: data.nombre,
-            apellido: data.apellido
+            id: data.usuario.id_usuario,
+            nombre: data.usuario.nombre,
+            apellido: data.usuario.apellido,
+            email: data.usuario.email,
+            direccion: data.usuario.direccion
           };
           sessionStorage.setItem('usuario', JSON.stringify(usuario));
+          
           window.location.href = '../pages/home.html';
         } else {
           const errorData = await response.json();

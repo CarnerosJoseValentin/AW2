@@ -222,5 +222,128 @@
         "cant": 1
       }
     ]
+  },
+  {
+    "id": 17,
+    "id_usuario": 13,
+    "fecha": "2024-07-01",
+    "total": 257.38,
+    "id_sucursal": 1,
+    "descripcion": [
+      {
+        "id_producto": 4,
+        "cant": 1
+      },
+      {
+        "id_producto": 2,
+        "cant": 1
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "id_usuario": 20,
+    "fecha": "2024-07-01",
+    "total": 247.47,
+    "id_sucursal": 1,
+    "descripcion": [
+      {
+        "id_producto": 3,
+        "cant": 1
+      },
+      {
+        "id_producto": 2,
+        "cant": 1
+      },
+      {
+        "id_producto": 1,
+        "cant": 1
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "id_usuario": 20,
+    "fecha": "2024-07-01",
+    "total": 39.59,
+    "id_sucursal": 1,
+    "descripcion": [
+      {
+        "id_producto": 1,
+        "cant": 1
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "id_usuario": 20,
+    "fecha": "2024-07-01",
+    "total": 207.88,
+    "id_sucursal": 1,
+    "descripcion": [
+      {
+        "id_producto": 3,
+        "cant": 1
+      },
+      {
+        "id_producto": 2,
+        "cant": 1
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "id_usuario": 20,
+    "fecha": "2024-07-01",
+    "total": 79.18,
+    "id_sucursal": 1,
+    "descripcion": [
+      {
+        "id_producto": 10,
+        "cant": 1
+      },
+      {
+        "id_producto": 5,
+        "cant": 1
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "id_usuario": 21,
+    "fecha": "2024-07-01",
+    "total": 247.47,
+    "id_sucursal": 1,
+    "descripcion": [
+      {
+        "id_producto": 1,
+        "cant": 1
+      },
+      {
+        "id_producto": 4,
+        "cant": 1
+      },
+      {
+        "id_producto": 8,
+        "cant": 1
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "id_usuario": 20,
+    "fecha": "2024-07-01",
+    "total": 158.38,
+    "id_sucursal": 1,
+    "descripcion": [
+      {
+        "id_producto": 7,
+        "cant": 1
+      },
+      {
+        "id_producto": 6,
+        "cant": 1
+      }
+    ]
   }
 ]

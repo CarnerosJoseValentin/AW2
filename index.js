@@ -1,4 +1,8 @@
 import express from 'express';
+
+import dotenv from 'dotenv';
+dotenv.config();
+
 import path from 'path';
 import { fileURLToPath } from 'url';
 import usuariosRouter from './routes/usuarios.routes.js';
@@ -12,7 +16,6 @@ const port = 3000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Middleware para archivos estáticos
 app.use(express.static(path.join(__dirname, 'Public')));
 
 app.use(express.json());

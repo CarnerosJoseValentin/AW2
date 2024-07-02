@@ -150,5 +150,21 @@
     "direccion": "Calle Independencia 234, Córdoba, Argentina",
     "email": "gabriela.arias@yahoo.com",
     "contraseña": "gabriela123"
+  },
+  {
+    "id_usuario": 20,
+    "nombre": "Valentin",
+    "apellido": "Carneros",
+    "direccion": "9 de julio 1080, Rio Cuarto",
+    "email": "valentinc@yahoo.com.ar",
+    "contraseña": "$2b$08$PpOisGemGM9XmA8xw.muFuPfzRF0pXduDuUpPWiIzt0OErqL2reZ6"
+  },
+  {
+    "id_usuario": 21,
+    "nombre": "Angel",
+    "apellido": "Magaquian",
+    "direccion": "Rondeau 165, Córdoba",
+    "email": "amagaquian@ies21.edu.ar",
+    "contraseña": "$2b$08$cZ/6Jfstda2B5Gm2bM8zb.orB.yn12WmVctYCZ7VC5dS8pm8H7cWO"
   }
 ]
