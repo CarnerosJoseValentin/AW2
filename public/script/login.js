@@ -27,10 +27,8 @@ export function inicializarLogin() {
     
         if (response.ok) {
           const data = await response.json();
-          // Almacenar el token JWT
           localStorage.setItem('token', data.token);
           
-          // Almacenar la información del usuario
           const usuario = {
             id: data.usuario.id_usuario,
             nombre: data.usuario.nombre,

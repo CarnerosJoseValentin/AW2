@@ -1,27 +1,33 @@
 import { inicializarLogin } from './login.js';
-import { cargarProductos, filtrarProductos } from './productos.js';
-import { inicializarCarrito, agregarAlCarrito } from './carrito.js';
+import { cargarProductos } from './productos.js';
+import { inicializarCarrito, agregarAlCarrito, actualizarVisibilidadCarrito } from './carrito.js';
 import { realizarCompra } from './compra.js';
 
 document.addEventListener('DOMContentLoaded', () => {
+
     if (document.getElementById('loginForm')) {
         inicializarLogin();
     }
-    cargarProductos();
+    
+    if (window.location.pathname.includes('productos.html')) {
+        cargarProductos();
+    }
+    
     inicializarCarrito();
-
-    const categoriaFilter = document.getElementById('categoriaFilter');
-    categoriaFilter.addEventListener('change', (e) => {
-        filtrarProductos(e.target.value);
-    });
-
+    actualizarVisibilidadCarrito();
+    
     const comprarBtn = document.getElementById('comprarBtn');
-    comprarBtn.addEventListener('click', realizarCompra);
+    if (comprarBtn) {
+        comprarBtn.addEventListener('click', realizarCompra);
+    }
 
-    document.getElementById('productosGrid').addEventListener('click', (e) => {
-        if (e.target.classList.contains('agregarAlCarrito')) {
-            const idProducto = parseInt(e.target.dataset.id);
-            agregarAlCarrito(idProducto);
-        }
-    });
+    const productosGrid = document.getElementById('productosGrid');
+    if (productosGrid) {
+        productosGrid.addEventListener('click', (e) => {
+            if (e.target.classList.contains('agregarAlCarrito')) {
+                const idProducto = parseInt(e.target.dataset.id);
+                agregarAlCarrito(idProducto);
+            }
+        });
+    }
 });

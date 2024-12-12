@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elegance Threads - Productos</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+    </style>
     <script>
         tailwind.config = {
             theme: {
@@ -15,45 +19,48 @@
                         accent1: '#51591E',
                         accent2: '#A2765D',
                         accent3: '#714D3D',
+                        gold: '#FFD700',
+                    },
+                    fontFamily: {
+                        'serif': ['Playfair Display', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
                     }
                 }
             }
         }
     </script>
 </head>
-<body class="bg-secondary min-h-screen">
-    <header class="bg-primary text-white p-4">
-        <h1 class="text-2xl font-bold">Elegance Threads - Productos</h1>
-    </header>
+<body class="bg-[url('../img/others/background_home.png')] min-h-screen font-serif">
+    <div id="header"></div>
+    
+    <div id="productNav" class="sticky top-0 z-20"></div>
+    
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row my-8">
+        <main class="w-full md:w-3/4 pr-0 md:pr-4">
+            <section id="productosGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                
+            </section>
+        </main>
 
-    <main class="container mx-auto p-4 flex">
-        <section class="w-3/4 pr-4">
-            <div class="mb-4">
-                <select id="categoriaFilter" class="p-2 rounded">
-                    <option value="">Todas las categorías</option>
-                    <option value="pantalones">Pantalones</option>
-                    <option value="camisas">Camisas</option>
-                    <option value="sacos">Sacos</option>
-                    <option value="zapatos">Zapatos</option>
-                </select>
+        <aside id="carritoContainer" class="w-full md:w-1/4 bg-black bg-opacity-70 p-4 rounded-lg mt-4 md:mt-0 hidden">
+            <h2 class="text-2xl font-bold mb-4 text-gold text-center">Carrito de Compras</h2>
+            <div id="carrito" class="text-white font-bold">
+               
             </div>
-            <div id="productosGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-
-            </div>
-        </section>
-
-        <aside class="w-1/4 bg-white p-4 rounded-lg">
-            <h2 class="text-xl font-bold mb-4">Carrito de Compras</h2>
-            <div id="carrito">
-
-            </div>
-            <div class="mt-4">
-                <p>Total: $<span id="totalCarrito">0</span></p>
-                <button id="comprarBtn" class="mt-2 bg-accent2 text-white p-2 rounded w-full">Comprar</button>
+            <div class="mt-4 text-center">
+                <p class="text-white font-bold">Total: $<span id="totalCarrito">0</span></p>
+                <button id="comprarBtn" class="mt-2 block text-center text-gold text-lg transition-all duration-300 ease-in-out border-2 border-gold hover:text-black hover:bg-gold hover:shadow-lg hover:scale-105 hover:font-bold py-2 px-4 rounded w-full">
+                    Comprar
+                </button>
             </div>
         </aside>
-    </main>
+    </div>
+
+    <div id="footer"></div>
 
     <script type="module" src="../script/main.js"></script>
+    <script type="module" src="../script/productos.js"></script>
+    <script type="module" src="../components/headerComponent.js"></script>
+    <script type="module" src="../components/productNavComponent.js"></script>
+    <script type="module" src="../components/footerComponent.js"></script>
 </body>
 </html>

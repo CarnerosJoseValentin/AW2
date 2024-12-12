@@ -1,10 +1,19 @@
 import { realizarCompra } from './compra.js';
-
 const CARRITO_KEY = 'carrito_compras';
 
 export function inicializarCarrito() {
     actualizarVistaCarrito();
     document.getElementById('comprarBtn').addEventListener('click', realizarCompra);
+}
+
+export function actualizarVisibilidadCarrito() {
+    const carrito = obtenerCarrito();
+    const carritoContainer = document.getElementById('carritoContainer');
+    if (carrito.length > 0) {
+        carritoContainer.classList.remove('hidden');
+    } else {
+        carritoContainer.classList.add('hidden');
+    }
 }
 
 export function agregarAlCarrito(idProducto) {
@@ -19,6 +28,7 @@ export function agregarAlCarrito(idProducto) {
     
     guardarCarrito(carrito);
     actualizarVistaCarrito();
+    actualizarVisibilidadCarrito();
 }
 
 export function eliminarDelCarrito(idProducto) {
@@ -26,6 +36,7 @@ export function eliminarDelCarrito(idProducto) {
     carrito = carrito.filter(item => item.id_producto !== idProducto);
     guardarCarrito(carrito);
     actualizarVistaCarrito();
+    actualizarVisibilidadCarrito();
 }
 
 export function obtenerCarrito() {
@@ -53,7 +64,7 @@ async function actualizarVistaCarrito() {
         itemElement.innerHTML = `
             <span>${producto.nombre} (x${item.cant})</span>
             <span>$${subtotal.toFixed(2)}</span>
-            <button class="eliminarDelCarrito" data-id="${item.id_producto}">X</button>
+            <button class="eliminarDelCarrito text-red-500 font-bold" data-id="${item.id_producto}">X</button>
         `;
         carritoElement.appendChild(itemElement);
     }
@@ -84,4 +95,5 @@ async function obtenerDetallesProducto(idProducto) {
 export function vaciarCarrito() {
     localStorage.removeItem(CARRITO_KEY);
     actualizarVistaCarrito();
+    actualizarVisibilidadCarrito();
 }
